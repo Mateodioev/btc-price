@@ -20,8 +20,8 @@
     	print("\e[1;33mHORA[".$today."]\e[0m\n");
     
 		$form = json_decode(file_get_contents("https://api.coindesk.com/v1/bpi/currentprice/MXN.json"), true);
-		$priceMXM = $form['bpi']['USD']['rate_float'];
-		$priceUSD = $form['bpi']['MXN']['rate_float'];
+		$priceMXM = $form['bpi']['MXN']['rate_float'];
+		$priceUSD = $form['bpi']['USD']['rate_float'];
 		print("\e[1;37;41mCOINDESK API => [MXN: ".$priceMXM."] | [USD: ".$priceUSD."]\e[0m\n");//coindesk data
     
 		$form2 = json_decode(file_get_contents("https://api.cryptonator.com/api/ticker/btc-usd"), true);
