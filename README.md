@@ -10,7 +10,7 @@ Script para saber el precio del bitcoin con 2 apis
 
 ## Instalación
 
-``git clone url``
+``git clone https://github.com/Mateodioev/btc-price.git``
 
 ``cd btc-price``
 
