@@ -1,4 +1,4 @@
-#BITCOIN PRICE
+# BITCOIN PRICE
 
 Script para saber el precio del bitcoin con 2 apis
 
